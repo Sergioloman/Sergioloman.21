@@ -1,5 +1,5 @@
 const {gql} = require('apollo-server-express')
-
+//specify the data being sent back and forward
 const typeDefs = gql`
     type Query {
         me: User
