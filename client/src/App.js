@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { ApolloClient, ApolloProvider, InMemoryCache, createHttpLink } from '@apollo/client';
+import { ApolloClient, ApolloProvider, InMemoryCache, createHttpLink } from '@apollo/react-hooks';
 import { setContext } from '@apollo/client/link/context'
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
